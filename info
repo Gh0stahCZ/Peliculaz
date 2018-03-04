@@ -1,0 +1,27 @@
+Using build number 43 from commit count based on counting commits to branch master
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+app: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'io.realm:realm-annotations-processor:3.7.1', 'io.realm:realm-annotations-processor:3.7.1', 'com.android.databinding:compiler:3.0.0-beta5'.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest
+/Users/tomaschlapek/AndroidStudioProjects/TCBaseArchitecture/app/src/main/AndroidManifest.xml:10:3-69:17 Warning:
+	application@tools:label was tagged at AndroidManifest.xml:10 to replace other declarations but no other declaration present
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:kaptGenerateStubsDebugKotlin
+Using kotlin incremental compilation
+:app:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+:app:kaptDebugKotlin FAILED
+15 actionable tasks: 5 executed, 10 up-to-date
